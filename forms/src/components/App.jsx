@@ -1,10 +1,12 @@
 import './App.css'
+import MoviesList from './MoviesList/MoviesList'
 
 function App() {
 
   return (
+
     <div className="App">
-      <h1>hey</h1>
+      <MoviesList />
     </div>
   )
 }
